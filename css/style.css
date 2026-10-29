@@ -134,7 +134,7 @@ body.open-book-on #bg-zoom-layer {
   position: fixed !important;
   z-index: 50;
   top: 25.5vh !important;
-  left: 23.5vw !important;
+  left: 24.2vw !important;
   width: 54.5vw !important;
   height: 66vh !important;
 
@@ -770,7 +770,7 @@ footer {
   position: fixed;
   z-index: 50;
   top: 25.5vh;
-  left: 27vw;
+  left: 30vw;
   width: 100vw;
   height: 100vh;
   margin: 0 !important;
