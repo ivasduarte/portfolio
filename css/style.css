@@ -979,7 +979,7 @@ body.open-book-on #main-view {
 
 /* A janela do editor de código (o bloco preto limpo) */
 #open-book-view .js-code pre {
-  font-family: "Anonymous Pro", "Fira Code", monospace !important;
+  font-family: "Anonymous Pro", monospace !important;
   font-size: 0.95rem !important;
   line-height: 1.7 !important;
   margin: 0 !important;
