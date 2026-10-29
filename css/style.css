@@ -798,7 +798,8 @@ body.open-book-on #open-book-view {
   }
 }
 body.open-book-on header,
-body.open-book-on #main-view {
+body.open-book-on #main-view,
+body.open-book-on footer {
   display: none;
 }
 @keyframes open-book-in {
