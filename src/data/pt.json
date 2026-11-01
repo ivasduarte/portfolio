@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "skills": "Competências",
+    "projects": "Projetos Académicos",
+    "certs": "Certificações",
+    "contact": "Contactos"
+  },
+  "hero": {
+    "name": "Iva Duarte Silva",
+    "typewriter": [
+      "Olá! Prazer em conhecer-te :)",
+      "Sou estudante de Engenharia Informática no ISEP,",
+      "focada em backend, a explorar o frontend,",
+      "e entusiasta de cibersegurança!",
+      "Bem-vindo ao meu portfólio :D"
+    ]
+  },
+  "about": {
+    "title": "system.about()",
+    "p1": "Sou estudante finalista de Engenharia Informática no ISEP, à procura de um estágio curricular (6º semestre) focado em desenvolvimento backend e arquitetura de sistemas.",
+    "p2": "Ao longo do meu percurso, especializei-me na construção de soluções robustas: desde a implementação de simuladores de alta concorrência orientados a Domain-Driven Design (DDD), até ao desenho de infraestruturas de rede.",
+    "cvButton": "Descarregar CV"
+  },
+  "skills": {
+    "title": "load_skills()",
+    "categories": [
+      {
+        "name": "Backend & Programação",
+        "items": [
+          "Java 21",
+          "C / POSIX",
+          "Python",
+          "SQL / PL/SQL",
+          "Assembly",
+          "Node.js"
+        ]
+      },
+      {
+        "name": "Arquitetura & Metodologia",
+        "items": [
+          "Domain-Driven Design (DDD)",
+          "Test-Driven Dev (TDD)",
+          "Scrum / Agile",
+          "PlantUML"
+        ]
+      },
+      {
+        "name": "Infraestrutura & Redes",
+        "items": [
+          "Linux",
+          "Cisco Packet Tracer",
+          "OSPF / VLAN / ACLs",
+          "Git / GitHub",
+          "Maven"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "git checkout projects",
+    "list": [
+      {
+        "name": "AlSafe - Air Traffic Control",
+        "description": "Sistema de controlo aéreo de alta concorrência. Motor com processos, threads e pipes para deteção de colisões. Compilador ANTLR para planos de voo DSL.",
+        "tags": ["C", "POSIX Threads", "DDD"],
+        "link": "https://github.com/ivasduarte/ai-safe.git"
+      },
+      {
+        "name": "Logistics On Rails",
+        "description": "Gestão de tráfego ferroviário e logística de armazéns. Arquitetura DDD. Algoritmos de inventário e otimização de rotas. Integração em Assembly.",
+        "tags": ["Java 21", "DDD", "Assembly"],
+        "link": "https://github.com/ivasduarte/logistics-on-rails.git"
+      },
+      {
+        "name": "Airport Campus",
+        "description": "Rede de terminal de aeroporto em Cisco Packet Tracer. Sub-redes VLSM para 8000+ nós. OSPF, DNS, DHCP, VoIP, NAT Estático e ACLs estendidas.",
+        "tags": ["Cisco", "OSPF", "Linux"],
+        "link": "https://github.com/ivasduarte/airport-campus-network.git"
+      },
+      {
+        "name": "All Aboard - Railway Simulator",
+        "description": "Gestão de rede ferroviária com análise topológica. Algoritmos de grafos desenvolvidos do zero para rotas. Análise estatística de KPIs.",
+        "tags": ["Python", "Grafos", "Estatística"],
+        "link": "https://github.com/ivasduarte/all-aboard.git"
+      },
+      {
+        "name": "Eigenfaces",
+        "description": "Aplicação de Álgebra Linear para processamento e compressão de imagem. Implementação de decomposição própria de matrizes simétricas. Criação de um algoritmo baseado em Eigenfaces para reconstruir imagens e identificar indivíduos numa base de dados através de distância euclidiana.",
+        "tags": ["Java"],
+        "link": "https://github.com/ivasduarte/eigenfaces.git"
+      }
+    ]
+  },
+  "certs": {
+    "title": "Certificações",
+    "list": [
+      {
+        "name": "EF SET English Certificate - C2 Proficient",
+        "date": "Set 2026",
+        "org": "EF Standard English Test",
+        "details": [
+          "Resultado Global: 87/100 (C2)",
+          "Leitura: C2 | Audição: C2"
+        ],
+        "link": "https://cert.efset.org/HEKkiF"
+      },
+      {
+        "name": "Introdução à Inteligência Artificial",
+        "date": "Set 2026",
+        "org": "Plataforma Nau",
+        "details": [
+          "Redes Neuronais Artificiais e Deep Learning.",
+          "Processamento de Linguagem Natural (NLP) e Ética em IA."
+        ],
+        "link": "https://lms.nau.edu.pt/certificates/9775fbebb70e4e7a967ee3f7f723f127"
+      },
+      {
+        "name": "Gestão de Projetos Digitais",
+        "date": "Set 2026",
+        "org": "Plataforma Nau",
+        "details": [
+          "Monitorização de projetos com ferramentas dedicadas.",
+          "Comunicação eficaz e resolução de conflitos."
+        ],
+        "link": "https://lms.nau.edu.pt/certificates/5af547b8c40443d5b1b7b4144364960a"
+      },
+      {
+        "name": "Cidadão Ciberseguro",
+        "date": "Set 2026",
+        "org": "Plataforma Nau (CNCS)",
+        "details": [
+          "Protocolos de higiene cibernética.",
+          "Boas práticas de proteção de sistemas e dados."
+        ],
+        "link": "https://lms.nau.edu.pt/certificates/2ef717c8728f47aab69450da3616c585"
+      }
+    ]
+  },
+  "contact": {
+    "title": "contact.me()",
+    "emailLabel": "Envia-me um email:",
+    "email": "ivaduartesilva2006@gmail.com",
+    "message": "Procuro um estágio curricular (6º semestre). Sente-te à vontade para entrar em contacto!",
+    "moreLabel": "Queres saber mais?",
+    "socialLabel": "Encontra-me no",
+    "orLabel": "ou",
+    "cvLabel": "Descarregar CV"
+  },
+  "footer": {
+    "text": "Iva Duarte Silva © 2026. Desenvolvido com dedicação,"
+  }
+}

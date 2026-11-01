@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Academic Projects",
+    "certs": "Certifications",
+    "contact": "Contacts"
+  },
+  "hero": {
+    "name": "Iva Duarte Silva",
+    "typewriter": [
+      "Hello! Nice to meet you :)",
+      "I'm an Engineering Student @ ISEP,",
+      "a backend developer currently learning frontend,",
+      "and a cybersecurity enthusiast!",
+      "Welcome to my portfolio :D"
+    ]
+  },
+  "about": {
+    "title": "system.about()",
+    "p1": "I am a final-year Computer Engineering student at ISEP, seeking a curricular internship (6th semester) focused on backend development and systems architecture.",
+    "p2": "Throughout my journey, I have specialized in building robust solutions: from implementing high-concurrency simulators oriented towards Domain-Driven Design (DDD), to designing network infrastructure.",
+    "cvButton": "Download CV"
+  },
+  "skills": {
+    "title": "load_skills()",
+    "categories": [
+      {
+        "name": "Backend & Programming",
+        "items": [
+          "Java 21",
+          "C / POSIX",
+          "Python",
+          "SQL / PL/SQL",
+          "Assembly",
+          "Node.js"
+        ]
+      },
+      {
+        "name": "Architecture & Methodology",
+        "items": [
+          "Domain-Driven Design (DDD)",
+          "Test-Driven Dev (TDD)",
+          "Scrum / Agile",
+          "PlantUML"
+        ]
+      },
+      {
+        "name": "Infrastructure & Networking",
+        "items": [
+          "Linux",
+          "Cisco Packet Tracer",
+          "OSPF / VLAN / ACLs",
+          "Git / GitHub",
+          "Maven"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "git checkout projects",
+    "list": [
+      {
+        "name": "AlSafe - Air Traffic Control",
+        "description": "High-concurrency air traffic control system. Engine with processes, threads, and pipes for collision detection. ANTLR compiler for DSL flight plans.",
+        "tags": ["C", "POSIX Threads", "DDD"],
+        "link": "https://github.com/ivasduarte/ai-safe.git"
+      },
+      {
+        "name": "Logistics On Rails",
+        "description": "Rail traffic management and warehouse logistics. DDD architecture. Inventory algorithms and route optimization. Assembly integration.",
+        "tags": ["Java 21", "DDD", "Assembly"],
+        "link": "https://github.com/ivasduarte/logistics-on-rails.git"
+      },
+      {
+        "name": "Airport Campus",
+        "description": "Airport terminal network in Cisco Packet Tracer. VLSM subnets for 8000+ nodes. OSPF, DNS, DHCP, VoIP, Static NAT, and extended ACLs.",
+        "tags": ["Cisco", "OSPF", "Linux"],
+        "link": "https://github.com/ivasduarte/airport-campus-network.git"
+      },
+      {
+        "name": "All Aboard - Railway Simulator",
+        "description": "Rail network management with topological analysis. Graph algorithms developed from scratch for routes. Statistical analysis of KPIs.",
+        "tags": ["Python", "Grafos", "Estatística"],
+        "link": "https://github.com/ivasduarte/all-aboard.git"
+      },
+      {
+        "name": "Eigenfaces",
+        "description": "Application of Linear Algebra to image processing and compression. Implementation of self-decomposition of symmetric matrices. Creation of an algorithm based on Eigenfaces to reconstruct images and identify individuals in a database using Euclidean distance.",
+        "tags": ["Java"],
+        "link": "https://github.com/ivasduarte/eigenfaces.git"
+      }
+    ]
+  },
+  "certs": {
+    "title": "Certifications",
+    "list": [
+      {
+        "name": "EF SET English Certificate - C2 Proficient",
+        "date": "Set 2026",
+        "org": "EF Standard English Test",
+        "details": [
+          "Global Level: 87/100 (C2 Proficient)",
+          "Reading: C2 | Listening: C2"
+        ],
+        "link": "https://cert.efset.org/HEKkiF"
+      },
+      {
+        "name": "Introduction to Artificial Intelligence",
+        "date": "Set 2026",
+        "org": "Plataforma Nau",
+        "details": [
+          "Artificial Neural Networks and Deep Learning.",
+          "Processamento de Linguagem Natural (NLP) e Ética em IA."
+        ],
+        "link": "https://lms.nau.edu.pt/certificates/9775fbebb70e4e7a967ee3f7f723f127"
+      },
+      {
+        "name": "Digital Project Management",
+        "date": "Set 2026",
+        "org": "Plataforma Nau",
+        "details": [
+          "Project monitoring with dedicated tools.",
+          "Effective communication and conflict resolution."
+        ],
+        "link": "https://lms.nau.edu.pt/certificates/5af547b8c40443d5b1b7b4144364960a"
+      },
+      {
+        "name": "Cyber-Secure Citizen",
+        "date": "Set 2026",
+        "org": "Plataforma Nau (CNCS)",
+        "details": [
+          "Cyber ​​hygiene protocols.",
+          "Best practices for protecting systems and data."
+        ],
+        "link": "https://lms.nau.edu.pt/certificates/2ef717c8728f47aab69450da3616c585"
+      }
+    ]
+  },
+  "contact": {
+    "title": "contact.me()",
+    "emailLabel": "Email me:",
+    "email": "ivaduartesilva2006@gmail.com",
+    "message": "I am looking for a curricular internship (6th semester). Feel free to contact me!",
+    "moreLabel": "Want to know more?",
+    "socialLabel": "Find me at",
+    "orLabel": "or",
+    "cvLabel": "Download CV"
+  },
+  "footer": {
+    "text": "Iva Duarte Silva © 2026. Developed with dedication,"
+  }
+}
