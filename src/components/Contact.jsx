@@ -26,7 +26,7 @@ export default function Contact({ content }) {
           <p className="text-sm font-medium opacity-90">{content.message}</p>
         </div>
 
-        <div className="w-full md:w-[40%] mt-6 md:mt-16 md:ml-[-10%] p-10 md:pl-[calc(10%+2rem)] rounded-xl border border-[#8c6d53]/20 dark:border-[#d4b28c]/20 text-slate-900 dark:text-slate-200 bg-white/85 dark:bg-slate-800/75 backdrop-blur-md text-center relative z-0">
+        <div className="w-full md:w-[40%] mt-6 md:mt-16 md:ml-[-10%] p-10 md:pl-[calc(10%+2rem)] rounded-xl border border-[#8c6d53]/20 dark:border-[#d4b28c]/20 text-slate-900 dark:text-slate-200 bg-white/85 dark:bg-slate-900/75 backdrop-blur-md text-center relative z-0">
           <p className="mb-2 text-sm">{content.moreLabel}</p>
           <p className="mb-2 text-sm">{content.socialLabel}</p>
           <a

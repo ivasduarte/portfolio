@@ -10,7 +10,7 @@ export default function About({ content }) {
         <span>{content.title}</span>
       </h2>
 
-      <div className="card-glow bg-white/90 dark:bg-slate-800/85 backdrop-blur-md p-8 rounded-xl border border-[#8c6d53]/20 dark:border-[#d4b28c]/20 text-slate-900 dark:text-slate-200">
+      <div className="card-glow bg-white/90 dark:bg-slate-900/75 backdrop-blur-md p-8 rounded-xl border border-[#8c6d53]/20 dark:border-[#d4b28c]/20 text-slate-900 dark:text-slate-200">
         <p className="mb-4 opacity-90">{content.p1}</p>
         <p className="mb-8 opacity-90">{content.p2}</p>
 
