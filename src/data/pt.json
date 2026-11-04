@@ -3,6 +3,7 @@
     "about": "Sobre",
     "skills": "Competências",
     "projects": "Projetos Académicos",
+    "personalProjs": "Projetos Pessoais",
     "certs": "Certificações",
     "contact": "Contactos"
   },
@@ -89,6 +90,23 @@
         "description": "Aplicação de Álgebra Linear para processamento e compressão de imagem. Implementação de decomposição própria de matrizes simétricas. Criação de um algoritmo baseado em Eigenfaces para reconstruir imagens e identificar indivíduos numa base de dados através de distância euclidiana.",
         "tags": ["Java"],
         "link": "https://github.com/ivasduarte/eigenfaces.git"
+      }
+    ]
+  },
+  "personalProjs": {
+    "title": "git checkout personal-projects",
+    "list": [
+      {
+        "name": "ADR API",
+        "description": "Um sistema centralizado (API + CLI) que recebe interativamente o contexto arquitetónico e gera documentos Markdown validados e normalizados, incluindo a renderização automática de diagramas PlantUML com formatação visual melhorada.",
+        "tags": ["Node.js", "DDD", "Mermaid"],
+        "link": "https://github.com/ivasduarte/adr-api"
+      },
+      {
+        "name": "Mini Redis TCP Store",
+        "description": "Um armazenamento de dados chave-valor em memória, construído de raiz usando sockets TCP puros do Node.js (módulo net), evitando a sobrecarga do HTTP.",
+        "tags": ["Node.js", "TCP Sockets", "DDD", "Dummy Objects"],
+        "link": "https://github.com/ivasduarte/mini-redis"
       }
     ]
   },

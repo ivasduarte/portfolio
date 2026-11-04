@@ -46,6 +46,12 @@ export default function Navbar({
           {content.projects}
         </a>
         <a
+          href="#projetos-pessoais"
+          className="font-semibold text-[0.9rem] tracking-[0.5px] hover:text-[#d4b28c] transition-colors"
+        >
+          {content.personalProjs}
+        </a>
+        <a
           href="#certificacoes"
           className="font-semibold text-[0.9rem] tracking-[0.5px] hover:text-[#d4b28c] transition-colors"
         >
@@ -187,6 +193,13 @@ export default function Navbar({
             className="font-semibold text-[0.9rem] hover:text-[#d4b28c] transition-colors py-2 border-b border-slate-700/10 dark:border-slate-700/50"
           >
             {content.projects}
+          </a>
+          <a
+            href="#personal-projects"
+            onClick={handleLinkClick}
+            className="font-semibold text-[0.9rem] hover:text-[#d4b28c] transition-colors py-2 border-b border-slate-700/10 dark:border-slate-700/50"
+          >
+            {content.personalProjs}
           </a>
           <a
             href="#certificacoes"
