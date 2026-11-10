@@ -67,10 +67,10 @@ export default function OpenBookTerminal({ content, screen }) {
               <br />
               &nbsp;&nbsp;<span className="text-[#9cdcfe]">email</span>:{" "}
               <a
-                href="mailto:ivaduartesilva2006@gmail.com"
+                href="mailto:ivaduartesilva@hotmail.com"
                 className="text-[#ce9178] underline hover:opacity-80"
               >
-                "ivaduartesilva2006@gmail.com"
+                "ivaduartesilva@hotmail.com"
               </a>
               ,
               <br />
