@@ -45,6 +45,14 @@ export default function Contact({ content }) {
           >
             GitHub
           </a>
+          <a
+            href="https://substack.com/@ivasduarte"
+            target="_blank"
+            rel="noreferrer"
+            className="block w-fit mx-auto mt-2 border-b-2 border-[#8c6d53] dark:border-[#d4b28c] font-bold uppercase tracking-wide hover:text-[#8c6d53] dark:hover:text-[#d4b28c] text-slate-900 dark:text-slate-200 transition-colors"
+          >
+            Substack
+          </a>
           <p className="my-2 text-sm">{content.orLabel}</p>
           <a
             href={cvPdf}

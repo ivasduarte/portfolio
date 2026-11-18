@@ -19,7 +19,7 @@
   },
   "about": {
     "title": "system.about()",
-    "p1": "Sou estudante finalista de Engenharia Informática no ISEP, à procura de um estágio curricular (6º semestre) focado em desenvolvimento backend e arquitetura de sistemas.",
+    "p1": "Sou estudante finalista de Engenharia Informática no ISEP, à procura de um estágio curricular (6º semestre) focado em desenvolvimento full-stack e arquitetura de sistemas.",
     "p2": "Ao longo do meu percurso, especializei-me na construção de soluções robustas: desde a implementação de simuladores de alta concorrência orientados a Domain-Driven Design (DDD), até ao desenho de infraestruturas de rede.",
     "cvButton": "Descarregar CV"
   },
@@ -107,6 +107,16 @@
         "description": "Um armazenamento de dados chave-valor em memória, construído de raiz usando sockets TCP puros do Node.js (módulo net), evitando a sobrecarga do HTTP.",
         "tags": ["Node.js", "TCP Sockets", "DDD", "Dummy Objects"],
         "link": "https://github.com/ivasduarte/mini-redis"
+      },
+      {
+        "name": "Media Tracker API",
+        "description": [
+          "Em desenvolvimento. ",
+          "API REST de nível empresarial para rastreio de filmes, séries de TV, e livros. ",
+          "Inclui integração com TMDB externo, listas de reprodução personalizadas e sistemas de classificação."
+        ],
+        "tags": ["Node.js", "DDD", "Dummy Objects"],
+        "link": "https://github.com/ivasduarte/media-tracker-api"
       }
     ]
   },
@@ -152,6 +162,13 @@
           "Boas práticas de proteção de sistemas e dados."
         ],
         "link": "https://lms.nau.edu.pt/certificates/2ef717c8728f47aab69450da3616c585"
+      },
+      {
+        "name": "Cidadão Cibersocial",
+        "date": "Ago 2025",
+        "org": "Plataforma Nau (CNCS)",
+        "details": ["Boas práticas de cibernética e cidadania digital."],
+        "link": "https://lms.nau.edu.pt/certificates/69097341a8314cc7b419a297d58f66fe"
       }
     ]
   },

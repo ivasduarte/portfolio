@@ -19,7 +19,7 @@
   },
   "about": {
     "title": "system.about()",
-    "p1": "I am a final-year Computer Engineering student at ISEP, seeking a curricular internship (6th semester) focused on backend development and systems architecture.",
+    "p1": "I am a final-year Computer Engineering student at ISEP, seeking a curricular internship (6th semester) focused on full-stack development and systems architecture.",
     "p2": "Throughout my journey, I have specialized in building robust solutions: from implementing high-concurrency simulators oriented towards Domain-Driven Design (DDD), to designing network infrastructure.",
     "cvButton": "Download CV"
   },
@@ -107,6 +107,16 @@
         "description": "In-memory key-value data store built from scratch bypassing HTTP overhead. Features pure TCP sockets network communication, dynamic Time-To-Live (TTL) lazy expiration algorithm, and DDD architecture with strict Dummy Object testing.",
         "tags": ["Node.js", "TCP Sockets", "DDD", "Dummy Objects"],
         "link": "https://github.com/ivasduarte/mini-redis"
+      },
+      {
+        "name": "Media Tracker API",
+        "description": [ 
+          "In development. ",
+          "Enterprise-level REST API for tracking movies, TV series, and books. ",
+          "Includes integration with external TMDB, custom playlist management, and rating systems."
+      ],
+        "tags": ["Node.js", "DDD", "Dummy Objects"],
+        "link": "https://github.com/ivasduarte/media-tracker-api"
       }
     ]
   },
@@ -152,6 +162,15 @@
           "Best practices for protecting systems and data."
         ],
         "link": "https://lms.nau.edu.pt/certificates/2ef717c8728f47aab69450da3616c585"
+      },
+      {
+        "name": "Cyber-Social Citizen",
+        "date": "Ago 2025",
+        "org": "Plataforma Nau (CNCS)",
+        "details": [
+          "Best practices for cyber hygiene and digital citizenship."
+        ],
+        "link": "https://lms.nau.edu.pt/certificates/69097341a8314cc7b419a297d58f66fe"
       }
     ]
   },

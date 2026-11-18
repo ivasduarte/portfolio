@@ -1,5 +1,6 @@
 import useTypewriter from "../hooks/useTypewriter";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope  } from "react-icons/fa";
+import { SiSubstack } from 'react-icons/si';
 
 export default function Hero({ content }) {
   const { displayedLines, currentLine } = useTypewriter(content.typewriter);
@@ -46,6 +47,12 @@ export default function Hero({ content }) {
           className="flex items-center justify-center w-12 h-12 rounded-full border border-slate-700 dark:border-[#d4b28c]/30 text-slate-700 dark:text-slate-200 hover:bg-[#8c6d53] hover:text-white dark:hover:bg-[#d4b28c] dark:hover:text-slate-900 transition-all shadow-md"
         >
           <FaEnvelope size={22} />
+        </a>
+        <a
+          href="https://substack.com/@ivasduarte"
+          className="flex items-center justify-center w-12 h-12 rounded-full border border-slate-700 dark:border-[#d4b28c]/30 text-slate-700 dark:text-slate-200 hover:bg-[#8c6d53] hover:text-white dark:hover:bg-[#d4b28c] dark:hover:text-slate-900 transition-all shadow-md"
+        >
+          <SiSubstack  size={22} />
         </a>
       </div>
     </header>
