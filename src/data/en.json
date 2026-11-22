@@ -144,6 +144,16 @@
         "link": "https://lms.nau.edu.pt/certificates/9775fbebb70e4e7a967ee3f7f723f127"
       },
       {
+        "name": "Introduction to Cybersecurity",
+        "date": "Nov 2026",
+        "org": "CISCO Networking Academy",
+        "details": [
+          "Global implications of cyber threats in various sectors.",
+          "Understanding vulnerabilities, as well as detection and defense against threats."
+        ],
+        "link": "https://www.credly.com/badges/ed130e41-d525-4823-ac5d-1d7eaefd0a92/public_url"
+      },
+      {
         "name": "Digital Project Management",
         "date": "Set 2026",
         "org": "Plataforma Nau",
